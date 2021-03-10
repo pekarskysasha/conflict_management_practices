@@ -1,5 +1,6 @@
 Scrips (Matlab & R) for “DWV-crane interaction" section (see also Appendix S2). 
-Using segmented crane GPS movement data and DWV GPS data to look for interactions between DWV and crane in sensitive fields
+Segmented crane GPS movement data and DWV GPS data for identification of interactions between DWV and crane in sensitive fields
+Includes calculation, statistical analysis and Fig 4 plotting
 ____________________________________________________________________________________________________________________________
 
 AnalyseChaseActivity (MATLAB script): 
