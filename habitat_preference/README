@@ -1,5 +1,5 @@
 Scrips (Matlab & R) for “Habitat preference" section (see also Appendix S4)
-Includes Step Selection modeling (SSF) modeling and analysis
+Includes Step Selection modeling (SSF) modeling, analysis and Fig 3 plotting
 _________________________________________________________________________________
 
 CleanPrepareForAnalysis_BC (MATLAB script):
