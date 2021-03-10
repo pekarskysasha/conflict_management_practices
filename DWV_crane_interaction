@@ -1,0 +1,16 @@
+Scrips (Matlab & R) for “DWV-crane interaction" section (see also Appendix S2). 
+Using segmented crane GPS movement data and DWV GPS data to look for interactions between DWV and crane in sensitive fields
+____________________________________________________________________________________________________________________________
+
+AnalyseChaseActivity (MATLAB script): 
+Finding of DWV revisits to fields CSV for analysis
+
+InteractionChaserCrane_BC (MATLAB script): 
+The interactions with DTV are found in all distances between 0 and 2000 meter (in sensitive fields only)
+
+Analyse_Interaction_with_DWV_BC (MATLAB script): 
+Analysis of diatnces to find the relevant interaction disance
+summarize the interactions and luck of them on sensitive crops and make the table for analysis 
+
+Active_disturbance_influence_BC (R script): 
+The revisits of the DTV to the same field and the DTV-crane interactions statistical analysis and plotting
