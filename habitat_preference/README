@@ -1,5 +1,5 @@
 Scrips (Matlab & R) for “Habitat preference" section (see also Appendix S4)
-Includes Step Selection modeling (SSF) modeling, analysis and Fig 3 plotting
+Includes Step Selection modeling (SSF) modeling, analysis and Fig 2 plotting
 _________________________________________________________________________________
 
 CleanPrepareForAnalysis_BC (MATLAB script):
@@ -14,7 +14,7 @@ SSF_modeling_BC (MATLAB script):
 SSF step modeling: random steps for each realized one and creation the table for clogit
 
 SSF_Plotting_BC (R script):
-clogit statistical analysis on all the models separately and plotting of Fig 3.
+clogit statistical analysis on all the models separately and plotting of Fig 2.
 
 SSF_CreateTables_BC (R script):
 clogit statistical analysis and creatiion of tables for Appendix S6
