@@ -139,4 +139,4 @@ for i=1:length(Indeviduals)
     end
 end
 
-writetable(InFeedingS,'TablePresenceDaledOnlyDaledTagsIncludeZero.csv')
+writetable(InFeedingS,'TablePresence_feeding.csv')
