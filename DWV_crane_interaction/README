@@ -6,13 +6,13 @@ AnalyseChaseActivity (MATLAB script):
 Finding of DWV revisits to fields CSV for analysis
 
 InteractionChaserCrane_BC (MATLAB script): 
-The interactions with DTV are found in all distances between 0 and 2000 meter (in sensitive fields only)
+Indentification of all the interactions with DTV in all distances between 0 and 2000 meter (in sensitive fields only)
 
-Analyse_Interaction_with_DWV_BC (MATLAB script): 
-Analysis of diatnces to find the relevant interaction disance
-summarize the interactions and luck of them on sensitive crops and make the table for analysis
-Creates Fig. 4.b.
+summarize_Interaction_crane_DWV_BC (MATLAB script): 
+The summary of the interactions and lack of them on sensitive crops to make a table for analysis in R
+Effective distance plotting (Appendix S2, Fig. S1)
+Fig. 4.b. creation
 
 Active_disturbance_influence_BC (R script): 
 The revisits of the DTV to the same field and the DTV-crane interactions statistical analysis and plotting
-Creates Fig. 4.a. and 4.c.
+Fig. 4.a. and 4.c. creation
