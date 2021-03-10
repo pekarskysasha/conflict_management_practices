@@ -1,4 +1,5 @@
 Scrips (Matlab & R) for "Activity area and overlap" section (see also Appendix S3)
+_________________________________________________________________________________
 
 Data4AKDE_BC (MATLAB script): 
 extracting daily points and creating CSV for ctmm package. Using only days with median sampling resolution < 31 minutes.
