@@ -1,4 +1,5 @@
 Scrips (Matlab & R) for "Activity area and overlap" section (see also Appendix S3)
+Includes ctmm application for AKDE home range calculation, statistical analysis and Fig 1 plotting
 _________________________________________________________________________________
 
 Data4AKDE_BC (MATLAB script): 
@@ -7,6 +8,7 @@ extracting daily points and creating CSV for ctmm package. Using only days with 
 AKDE_HomeRange_BC (R script): 
 using ctmm package to calculate AKDE home ranges and calculate the statistics to compere the core activity area before and during the intensive operation of the feeding station. 
 Only for individuals with at least 10 days in both periods (n=18)
+Fig 1 plotting
 
 AKDE_HomeRangeOverlapFS_BC (R script): 
 using ctmm package to calculate AKDE home ranges for all individuals (n=21) and creates PMF rasters to calculate proportion of predicted time in the feeding station. 
