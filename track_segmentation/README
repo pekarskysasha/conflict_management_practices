@@ -1,4 +1,4 @@
-Scrips (Matlab) creating track segmentation into “stops” and “moves” (see also Appendix S4). 
+Supervised track segmentation into “stops” and “moves” (see also Appendix S4). 
 The segmented data used for Step Selection modeling (SSF) and for crane-DWV interactions
 ___________________________________________________________________________________________
 
