@@ -1,0 +1,18 @@
+Scrips (Matlab & R) for “Habitat preference" section (see also Appendix S4)
+Includes Step Selection modeling (SSF) modeling and analysis
+
+CleanPrepareForAnalysis_BC (MATLAB script):
+creating final table of stops for SSF modeling (1) removing walking with more than one functional crop, and (2) grouping stops if distance smaller than GPS error
+
+stopDuration_moveDistance_distributions (MATLAB script): 
+Creates the “stop” duration and “move” distance distribution t in in SSF. 
+Created a table with last point in roost for making a first point for SSF
+
+SSF_modeling_BC (MATLAB script):
+creates the random steps for each realized one and writes the table for clogit
+
+SSF_Plotting_BC (R script):
+Performing the clogit statistical on all the models separately and plotting.
+
+SSF_CreateTables_BC (R script):
+Performing the clogit and creating table for Appendix S6
