@@ -112,8 +112,7 @@ ggplot(data=FoodData, aes(x = Feed , y = P, color=factor(Stage))) +
   labs( x = "Amount of corn fed per day (Kg)",y = "proportion of time at the feeding station")+
   stat_function(fun = lmeqL3, size=2, color="#717272")
  
-# plot agregated per day -------------------------------------------
-
+# plot agregated per day (Fig. 3) -------------------------------------------
 #--- agregate the data for plotting   
 RR1 <- aggregate(P~Feed+DateTime_pox,data=FoodData,FUN=mean)
 RR1$Stage[RR1$DateTime_pox> "2017-12-21"]<-2
@@ -125,7 +124,7 @@ tapply(RR1$P, RR1$Stage, mean)
 tapply(RR1$P, RR1$Stage, sd)
 tapply(RR1$Feed, RR1$Stage, summary)
 
-# plot balck and white
+# balck and white 
 ggplot(data=RR1, aes(x = Feed , y = P, shape=factor(Stage))) +
   geom_point(alpha = 0.4,size = 3.5,stroke=1.5) +
   theme(text = element_text(size=20),panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
