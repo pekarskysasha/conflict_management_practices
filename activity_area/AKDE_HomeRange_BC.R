@@ -216,7 +216,7 @@ par(opar) # restore the defult par settings
 #============= Plot home range examples ====================================================
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++
-#--Plot example of 2 tags [BEFORE]
+#--Plot example of 2 tags [BEFORE] (Fig 1.b)
 #++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Daledtag <- "#83c8fc"
@@ -271,7 +271,7 @@ map1 <- map1 %>% addPolygons(data = Daled,
                              fill = F,fillOpacity = 1,weight = 4,opacity = 0.7,color = "white")
 mapshot(map1, url = paste0(getwd(), "/newCTMM/example_Before_83&59.html"))
 #++++++++++++++++++++++++++++++++++++++++++++++++++++
-#--Plot example of 2 tags [DURING]
+#--Plot example of 2 tags [DURING]  (Fig 1.c) 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Daledtag <- "#83c8fc"
 NDaledTag <- "#fc3d03"
@@ -343,7 +343,7 @@ HomeRangeAll$TagType<-factor(HomeRangeAll$TagType, labels=c("DF-dependent","DF-i
 HomeRangeAll$period<-factor(HomeRangeAll$period, levels=c("Before","After"),ordered=TRUE)
 levels(HomeRangeAll$period) <- c("before feeding","during feeding")
 
-#---------------plot by tag type ----------------------------------------------------------------
+#---------------plot by tag type (Fig 1.a) ----------------------------------------------------------------
 ggplot(HomeRangeAll, aes(x = period, y = UD50, color = TagType,fill = TagType)) +
   geom_boxplot(outlier.shape = NA,alpha = 0.4)+
   geom_point(alpha = 0.6, size=3, position=position_jitterdodge(0.05),aes(color=TagType))+
