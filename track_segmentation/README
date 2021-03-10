@@ -1,0 +1,9 @@
+Scrips (Matlab) creating track segmentation into “stops” and “moves” (see also Appendix S4). 
+The segmented data used for Step Selection modeling (SSF) and for crane-DWV interactions
+
+Supervised_segmentation_Hula (MATLAB script): 
+The script segmenting the day points (out of roost) into stops (time on the ground) and flights. 
+Using only days with median sampling resolution < 6 minutes.
+
+FindField (MATLAB function):
+Using shapefile data of the Hula valley to assign points into habitat categories.
