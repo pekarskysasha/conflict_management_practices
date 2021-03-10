@@ -1,0 +1,13 @@
+Scrips (Matlab & R) for “Feeding station influence" section 
+___________________________________________________________
+
+TimeInFeedingStation (MATLAB script):
+Percent of time the cranes spent in the feeding station by 
+
+FitLogistic_BC (R script):
+The fitting of the logistic regression is performed using and by for Appendix S5
+plotting Fig. 3 
+
+GLMM_beta_BC (R script):
+The GLMM with beta distribution for statistical analysis
+
