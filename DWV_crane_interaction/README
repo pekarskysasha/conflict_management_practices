@@ -12,7 +12,7 @@ Agregate_stops_BC (MATLAB script):
 InteractionChaserCrane_BC (MATLAB script): 
 Indentification of all the interactions with DTV in all distances between 0 and 2000 meter (in sensitive fields only)
 
-summarize_Interaction_crane_DWV_BC (MATLAB script): 
+summary_Interaction_crane_DWV_BC (MATLAB script): 
 The summary of the interactions and lack of them on sensitive crops to make a table for analysis in R
 Effective distance plotting (Appendix S2, Fig. S1)
 Fig. 4.b. creation
