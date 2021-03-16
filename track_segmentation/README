@@ -6,5 +6,10 @@ Supervised_segmentation_Hula (MATLAB script):
 The script segmenting the day points (out of roost) into stops (time on the ground) and flights. 
 Using only days with median sampling resolution < 6 minutes.
 
+CleanPrepareForAnalysis_BC (MATLAB script): 
+creating final table of "stops":
+(1) removing walking with more than one functional crop, and 
+(2) grouping stops if distance smaller than 10 m
+
 FindField (MATLAB function):
 Using shapefile data of the Hula valley to assign points into habitat categories.
