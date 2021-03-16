@@ -3,8 +3,11 @@ Segmented crane GPS movement data and DWV GPS data for identification of interac
 Includes calculation, statistical analysis and Fig 4 plotting
 ____________________________________________________________________________________________________________________________
 
-AnalyseChaseActivity (MATLAB script): 
-Finding of DWV revisits to fields CSV for analysis
+AnalyseChaseActivity_BC (MATLAB script): 
+DWV revisits to fields and cration of CSV for analysis
+
+Agregate_stops_BC (MATLAB script): 
+"Stops" occuring in the same functional unit are merged and only the last point is considered for interction with DWV
 
 InteractionChaserCrane_BC (MATLAB script): 
 Indentification of all the interactions with DTV in all distances between 0 and 2000 meter (in sensitive fields only)
@@ -15,5 +18,6 @@ Effective distance plotting (Appendix S2, Fig. S1)
 Fig. 4.b. creation
 
 Active_disturbance_influence_BC (R script): 
-The revisits of the DTV to the same field and the DTV-crane interactions statistical analysis and plotting
+The revisits of the DTV to the same field and the DTV-crane interactions. 
+Statistical analysis 
 Fig. 4.a. and 4.c. creation
